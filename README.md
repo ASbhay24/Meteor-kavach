@@ -29,16 +29,23 @@ Built originally for the Zupee Hackathon, the development prioritized **clarity 
 **Step 1: Clone the repository**
 ```bash
 git clone [https://github.com/ASbhay24/Meteor-Kavach.git](https://github.com/ASbhay24/Meteor-Kavach.git)
+```
 
 **Step 2: navigate the directory**
+```bash
 cd meteor-kavach
+```
 
 **Step 3: Set up Environment Variables**
 Create a .env file in the root directory (this file is git-ignored for security) and add your API key:
+```bash
 GEMINI_API_KEY=your_api_key_here
+```
 
 **Step 4: Install Dependencies**
+```bash
 flutter pub get
+```
 
 **Step 5: Run the Application**
 flutter run
