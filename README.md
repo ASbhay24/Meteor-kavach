@@ -40,6 +40,7 @@ cd meteor-kavach
 Create a .env file in the root directory (this file is git-ignored for security) and add your API key:
 ```bash
 GEMINI_API_KEY=your_api_key_here
+NVIDIA_API_KEY=your_api_ky_here
 ```
 
 **Step 4: Install Dependencies**
