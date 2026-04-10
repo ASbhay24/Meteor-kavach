@@ -1,0 +1,29 @@
+name: meteor
+description: "A financial shield app for Zupee Hackathon"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.11.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_markdown: ^0.7.0
+  shared_preferences: ^2.3.2
+  image_picker: ^1.1.2
+  cupertino_icons: ^1.0.8
+  http: ^1.2.0
+  intl: ^0.19.0
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/.env
